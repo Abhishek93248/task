@@ -1,0 +1,26 @@
+userName: abhishektiwari_MxA5Hc
+accessKey: 5X2W7xo3D2HUouwB2915
+platforms:
+  - os: Windows
+    osVersion: 11
+    browserName: Chrome
+    browserVersion: latest
+  - os: Windows
+    osVersion: 11
+    browserName: Firefox
+    browserVersion: latest
+  - os: OS X
+    osVersion: Big Sur
+    browserName: Chrome
+    browserVersion: 122.0
+  - os: OS X
+    osVersion: Ventura
+    browserName: Chrome
+    browserVersion: 122.0
+  - os: OS X
+    osVersion: Lion
+    browserName: Chrome
+    browserVersion: 49.0
+browserstackLocal: true
+buildName: browserstack-build-1
+projectName: BrowserStack Sample

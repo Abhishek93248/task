@@ -5,7 +5,9 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.action_chains import ActionChains
 
-driver = webdriver.Chrome()
+driver = webdriver.Remote(
+            command_executor="https://hub.browserstack.com/wd/hub"
+        )
 
 
 driver.get("https://www.flipkart.com/")

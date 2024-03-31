@@ -17,10 +17,10 @@ platforms:
     osVersion: Ventura
     browserName: Chrome
     browserVersion: 122.0
-  - os: OS X
-    osVersion: Lion
-    browserName: Chrome
-    browserVersion: 49.0
-browserstackLocal: true
+  - os: Windows
+    osVersion: 8.1
+    browserName: Firefox
+    browserVersion: 114.0
+
 buildName: browserstack-build-1
 projectName: BrowserStack Sample
